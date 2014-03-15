@@ -1,6 +1,9 @@
 pro readme.txt
 
 github:
+1. web address (pro)
+https://github.com/kgd-zhen/pro
+
 1. // how do you download the code
 //-----git clone git@github.com:kgd-zhen/pro.git
 
