@@ -14,4 +14,6 @@ remote: Compressing objects: 100% (4/4), done.
 remote: Total 4 (delta 0), reused 0 (delta 0)
 Receiving objects: 100% (4/4), done.
 
-test
+2.//test whether we can receiver email notification
+
+3.//test current account
