@@ -17,3 +17,5 @@ Receiving objects: 100% (4/4), done.
 2.//test whether we can receiver email notification
 
 3.//test current account
+
+4.//add chongchi-tech.com  email
