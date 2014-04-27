@@ -19,9 +19,3 @@ Receiving objects: 100% (4/4), done.
 3.//test current account
 
 4.//add chongchi-tech.com  email
-
-5.// test git diff generate  patch
-6.// test git reset --hard HASH
-    or return to a branch to test some question
-    git branch branchName Hash
-    git checkout branchName
