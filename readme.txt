@@ -19,3 +19,5 @@ Receiving objects: 100% (4/4), done.
 3.//test current account
 
 4.//add chongchi-tech.com  email
+
+5.//stash

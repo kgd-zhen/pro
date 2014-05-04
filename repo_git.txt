@@ -1,0 +1,57 @@
+//--------git 常用命令-------
+
+
+
+git patch
+
+git diff >patch  //生成patch   
+git apply patch  // 打入patch
+
+git format-patch -1  //将最近的一次提交打成patch    git format-patch HEAD^
+git am *.pach   // 打入patch
+
+
+//  git  恢复----------------
+
+git checkout -- + 需要恢复的文件名    #恢复到最后一次提交的改动：
+
+git reset HEAD src/adapter.c   	＃恢复某个文件
+
+git reset --hard // 
+
+git revert commitId // revert 某个版本，git push// 将其更新服务器 
+
+git branch branchName commitId
+
+
+//--------git 查看某些信息如 修改日志，branch 信息等等-----------
+
+git log  # 显示提交日志
+
+gitk -p fifleName 			＃查看某个文件历次修改内容
+
+git show -v commitid      #显示某个commit的详细信息，可以看到具体做了哪些修改
+
+git show commitId fileName           #查看文件fileName 在某个版本（commitId)里的修改
+
+git branch -av   #查看某个项目的所有branch
+
+git remote 				#不带参数，列出已经存在的远程分支
+git remote -v  			#列出详细信息，在每一个名字后面列出其远程url
+
+
+
+
+//-----repo  常用命令---------
+
+repo start branchName -all // 在所有项目里创建branch
+
+repo checkout branchName // 在所有项目里切换为分支branchName
+
+repo status //查看所有项目里的状态（即可以查看目前都修改了那些文件 等同于项目参数的git status）
+
+repo diff // 查看所有项目里修改文件的diff，（即等同于项目参数的 git diff）
+
+repo branch // 查看项目里都有那些分支，（即等同于项目参数的 git branch)
+
+     
