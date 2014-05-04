@@ -22,4 +22,6 @@ Receiving objects: 100% (4/4), done.
 
 5.//stash
 
-6. test commit
+6. test commit, not push
+
+7. againg change,and push 6,7 changes
