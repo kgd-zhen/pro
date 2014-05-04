@@ -21,3 +21,5 @@ Receiving objects: 100% (4/4), done.
 4.//add chongchi-tech.com  email
 
 5.//stash
+
+6. test commit
