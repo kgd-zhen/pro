@@ -25,3 +25,5 @@ Receiving objects: 100% (4/4), done.
 6. test commit, not push
 
 8. test rebase
+9:
+10

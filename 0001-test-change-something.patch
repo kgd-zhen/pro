@@ -1,0 +1,26 @@
+From d5a0311032d822877369e24ea2501c52be19256b Mon Sep 17 00:00:00 2001
+From: wuzhenzhen <wuzhenzhen@chongchi-tech.com>
+Date: Mon, 28 Apr 2014 00:35:36 +0800
+Subject: [PATCH]   test "change something "
+
+---
+ readme.txt | 6 ++++++
+ 1 file changed, 6 insertions(+)
+
+diff --git a/readme.txt b/readme.txt
+index 908d4cf..e8dc760 100644
+--- a/readme.txt
++++ b/readme.txt
+@@ -19,3 +19,9 @@ Receiving objects: 100% (4/4), done.
+ 3.//test current account
+ 
+ 4.//add chongchi-tech.com  email
++
++5.// test git diff generate  patch
++6.// test git reset --hard HASH
++    or return to a branch to test some question
++    git branch branchName Hash
++    git checkout branchName
+-- 
+1.8.1.2
+
